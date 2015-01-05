@@ -6,7 +6,7 @@
   <project name="SaberMod/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" remote="github" revision="master" />
   <project name="cmRemiX/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="github" revision="master" />
   <remove-project name="CyanogenMod/android_build" />
-  <project name="Khaon/android_build" path="build" remote="github" revision="light-build" />
+  <project name="Khaon/android_build" path="build" remote="github" revision="cm-12.0" />
   <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/cm-12.0" />
   <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-12.0" />
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.0" />
