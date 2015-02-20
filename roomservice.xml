@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="Khaon/vendor_khaon_misc" path="vendor/khaon_misc" remote="github" revision="master" />
-  <project name="kecinzer/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="bitbucket" revision="master" />
+  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="master" />
   <project name="SaberMod/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" remote="github" revision="master" />
   <project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="github" revision="cm-12.0" />
   <project name="SaberMod/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" remote="github" revision="master" />
   <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" staging="cm-12.0" />
   <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" />
-  <project name="Khaon/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
+  <project name="M1cha/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
   <project name="CyanogenMod/android_device_oppo_find5" path="device/oppo/find5" remote="github" />
   <project name="CyanogenMod/android_device_oppo_apq8064-common" path="device/oppo/apq8064-common" remote="github" />
   <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" />
@@ -41,6 +41,6 @@
   <project name="khaon/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="khaon/android_frameworks_base" path="frameworks/base" remote="github" />
-  <project name="M1cha/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="cm-12.0-aries" />
     <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" revision="lollipop" />
+      <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master"/>
 </manifest>
